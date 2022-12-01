@@ -1,0 +1,267 @@
+.body-login{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../img/fondo_login.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.login-box{
+    box-shadow: 1px 1px 7px 0px gray;
+    width: 300px;
+    height: 400px;
+    border-radius: 13px;
+    background-color: #e9e6e6;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}   
+
+.login-box img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.login-box h1{
+    font-size: 25px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button{
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #35AD52  ;
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.button:hover{
+    color: #98e0aa9f;
+}
+
+/* Iniciar sesion */
+
+.body-singin{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../img/imagen-iniciarsecion.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sing-in {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 7px 0px gray;
+    background: transparent;
+    padding: 1%;
+    border-radius: 13px;
+}
+
+.sing-in img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.documento{
+    width: 290px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.documento img{
+    width: 55px;
+}
+
+.documento input{
+    font-size: 19px;
+    border: none;
+    border-bottom: 2px solid  #35AD52;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+.password{
+    width: 290px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.password img{
+    width: 55px;
+}
+
+.password input{
+    font-size: 19px;
+    border: none;
+    border-bottom: 2px solid  #35AD52;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+.validacion{
+    border: none;
+    border-radius: 6px;
+    background-color: #35AD52  ;
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    width: 85%;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    outline: none;
+}
+
+.validacion:hover{
+    color: #98e0aa9f;
+}
+
+  /* Registro */
+
+.body-register{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../img/image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-register{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 7px 0px gray;
+    background: transparent;
+    border-radius: 13px;
+    padding-left : 1%; 
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.loogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: bisque;
+}
+
+.box-register img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.box-register input[type="text"],
+.box-register input[type="date"]{
+    font-size: 10px;
+    border: none;
+    border-bottom: 2px solid  #35AD52;
+    background: transparent;
+    outline: none;
+    color: #35AD52;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.doc{
+    margin-bottom: 1px;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+select{
+    outline: none;
+    width: 99%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #696b69;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #35AD52;
+}
+
+.numdoc{
+    width: 99%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #35AD52;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+    font-size: 16px;
+}
+
+.buttonvalida{
+    outline: none;
+    width: 99%;
+    height: 30px;
+    border: none;
+    background-color: #35AD52;
+    border-radius: 3px; 
+    color: #FFF;
+    font-size: 15px;
+}
+
+.buttonvalida:hover{
+    color: #98e0aa9f;
+}
+
